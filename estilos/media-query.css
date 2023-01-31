@@ -21,11 +21,11 @@ Telas Grandes: acima de 1200px
     section#login > div#imagem {
         width: 30%;
         height: 100%;
-        float: left;
+        float: left; /*Imagem à esquerda. A imagem vai "flutuar" à esquerda.*/
     }
 
     section#login > div#formulario {
-        float: right;
+        float: right; /*Formulário à direita. "A imagem vai flutuar à direita"*/
         width: 70%;
     }
 }
@@ -40,13 +40,13 @@ Telas Grandes: acima de 1200px
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right; /*A imagem vai "flutuar" à direita.*/
         width: 50%;
         height: 100%;
     }
 
     section#login> div#formulario {
-        float: right;
+        float: left; /*A imagem vai "flutuar" à esquerda.*/
         width: 50%;
         height: 100%;
     }
