@@ -10,12 +10,13 @@ Telas Grandes: acima de 1200px
 */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
-    body {
+    body { /*Configuração para Tablet*/
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     section#login {
         width: 90vw;
+        height: 340px;
     }
 
     section#login > div#imagem {
