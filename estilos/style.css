@@ -119,7 +119,8 @@ form > a.botao {
     text-align: center;
     font-size: 1em;
     width: 100%;
-    height: 40%;
+    height: 40px;
+    padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 5px;
     border: 1px solid aquamarine;
@@ -132,5 +133,5 @@ form > a.botao:hover {
 }
 
 form > a.botao > i {
-
+    font-size: 0.8em;
 }
